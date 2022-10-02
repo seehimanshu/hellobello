@@ -37,3 +37,25 @@ console.log(b);
 
 var num=540;
 console.log(`half of ${num} is ${num/2}`);
+
+let g=100;
+console.log(g);
+
+// let g=200; not possible
+g="hello"
+console.log(g); 
+
+var num=10;
+for(var i=0;i<num;i++)
+{
+    if(i%2==0)
+    {
+        console.log("num is even");
+    }
+}
+
+const l=2;
+// const a=7; cannot be done
+// a=10; cannot be done
+
+console.log(l);
